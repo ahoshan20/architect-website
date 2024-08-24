@@ -1,0 +1,140 @@
+.container{
+    width: 90%;
+}
+.navbar{
+    flex-direction: column;
+}
+.logo{
+    display: none;
+}
+.menu{
+    flex-direction: column;
+    align-items: center;
+}
+.menu li{
+    width: 90%;
+    /* background-color: #4E9CC7; */
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 166, 0, 0.918);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 2px #000000b2;
+}
+.menu li:hover{
+    border: 1px solid transparent;
+    background-color:  #FFF4E7;
+}
+.menu li a{
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 150px;
+}
+.login-btn{
+    padding: 12px 15px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+}
+.login-btn:hover{
+    background-color: greenyellow;
+}
+.bannar-header{
+    width: 100%;
+}
+.bannar-header h1{
+    padding: 0;
+}
+.bannar-header p{
+    padding: 0;
+}
+.bannar-image img{
+    width: 100%;
+}
+/* feature section style here  */
+.feature-section{
+    flex-direction: column;
+    padding: 50px 0;
+}
+.feature-image, .feature-info{
+    margin: 0;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+}
+.gallery img{
+    width: 100%;
+}
+.feature-header{
+    text-align: center;
+}
+.feature-description{
+    padding: 0;
+    text-align: center;
+}
+.feature-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* feature you will love section style here  */
+.feature-you-will-love-section{
+    flex-direction: column;
+}
+.experience-section, .feature-you-will-love-image{
+    width: 100%;
+}
+.experience-header h2{
+    padding: 0;
+    text-align: center;
+}
+.experience-header p{
+    padding: 20px 0;
+    text-align: center;
+}
+br{
+    display: none;
+}
+.experience h3{
+    text-align: center;
+}
+.experience p{
+    padding: 0;
+}
+.experience-image img{
+    width: 100%;
+}
+.year-btn{
+    font-size: 36px;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.year-btn span{
+    font-size: 18px;
+}
+/* fact section setyle here  */
+.some-fact-section{
+    margin-top: 200px;
+}
+.some-fact-head-section h2{
+    text-align: center;
+}
+.some-fact-head-section p{
+    padding: 0;
+    text-align: center;
+}
+.fact-cards{
+    padding: 50px 0;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.fact-card{
+    width: 250px;
+}
+/* Footer section style here  */
+.sponsors{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
